@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Navbar shadow */
+  .nav-scrolled {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Reusable card style */
+  .card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  .dark .card {
+    background: rgba(30, 20, 50, 0.9);
+  }
+  .card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 8px 30px rgba(168, 85, 247, 0.3);
+  }
+  
+  /* Input styles */
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background: white;
+    color: #111;
+    transition: all 0.3s;
+  }
+  .input:focus {
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3);
+  }
+  .dark .input {
+    background: #1f1b2e;
+    border-color: #3b3360;
+    color: #f3f4f6;
+  }
+  
